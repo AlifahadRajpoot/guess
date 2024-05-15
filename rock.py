@@ -48,7 +48,6 @@ while True:
                 print("User score",ucount)
                 print("Computer score",ccount)
     else:
-        print("invalid")
         break;        
                 
                 
