@@ -42,7 +42,7 @@ def deletestudent(id,age):
     return students
 
 def start():
-    uvicorn.run("fastapi:app",host="127.0.0.1",port=8080)
+    uvicorn.run("fastapi:app",host="127.0.0.1",port=8000)
     
 
 

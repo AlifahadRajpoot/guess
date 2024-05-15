@@ -13,11 +13,11 @@ while True:
                                 2.paper
                                 3.scissor"""))
             if userinput==1:
-                uchoice="rock"
+                uchoice="Rock"
             elif userinput==2:
-                uchoice="paper"
+                uchoice="Paper"
             elif userinput==3:
-                uchoice="scissor"
+                uchoice="Scissor"
             Cchoice=random.choice(l)
             if Cchoice==uchoice:
                 print("Computer value",Cchoice)
@@ -48,6 +48,7 @@ while True:
                 print("User score",ucount)
                 print("Computer score",ccount)
     else:
+        print("invalid")
         break;        
                 
                 
